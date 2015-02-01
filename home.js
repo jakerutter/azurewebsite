@@ -1,3 +1,3 @@
 document.getElementById("button").onclick = function() {
-	alert("thank you for liking my website");
+	alert("Thank you for liking my website.");
 };

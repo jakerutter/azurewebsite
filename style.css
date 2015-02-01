@@ -24,6 +24,7 @@ body	{
 }
 #soccerContainer
 {
+	
 	border-style:solid;
 	border-color:#00ffff;
 	border-width: 5px;
@@ -31,15 +32,19 @@ body	{
 }
 #soccerText
 {
+	font-family:"Veranda";
+	font-size: 20px;
 	border-style: solid;
-	border-color: orange;
+	border-color: black;
 	float:left;
 	width: 70%;
 }
 
 #soccerImage
 {
-	
+
+	font-family:"Veranda";
+	font-size: 20px;
 	border-style: dotted;
 	border-width: 2px;
 	border-color: white;
