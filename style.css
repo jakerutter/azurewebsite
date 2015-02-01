@@ -18,7 +18,8 @@ body	{
 #container
 {
 	border-style: solid;
-	border-color: red;
+	border-style: solid;
+	border-color: black;
 	margin: 10px;
 	height: 90%;
 }
@@ -39,15 +40,21 @@ body	{
 	float:left;
 	width: 70%;
 }
-
+#Interests
+{
+	font-family:"Veranda";
+	font-size: 20px;
+	border-style: solid;
+	padding-left: 10px;
+}
 #soccerImage
 {
 
 	font-family:"Veranda";
 	font-size: 20px;
-	border-style: dotted;
+	border-style: black;
 	border-width: 2px;
-	border-color: white;
+	border-color: black;
 /*	padding-top: 10px;
 	padding-bottom: 10px;*/
 	float:right;
