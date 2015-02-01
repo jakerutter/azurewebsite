@@ -15,22 +15,44 @@ body	{
 	text-align: right;
 }
 
-#image
+#container
 {
-	height: 400px;
+	border-style: solid;
+	border-color: red;
+	margin: 10px;
+	height: 90%;
+}
+#soccerContainer
+{
+	border-style:solid;
+	border-color:#00ffff;
+	border-width: 5px;
+	height:95%;
+}
+#soccerText
+{
+	border-style: solid;
+	border-color: orange;
+	float:left;
+	width: 70%;
+}
+
+#soccerImage
+{
 	
 	border-style: dotted;
-	bodrer-width: 2px;
+	border-width: 2px;
 	border-color: white;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	text-align: center;
-	
-	
+/*	padding-top: 10px;
+	padding-bottom: 10px;*/
+	float:right;
+	width: 28%;
 }
+
+
 div > img {
-width: auto;
-height: auto;
-max-height: 100%;
-max-width: 100%;
+	width: auto;
+	height: auto;
+	max-height: 100%;
+	max-width: 100%;
 }
