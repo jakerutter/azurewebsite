@@ -1,11 +1,11 @@
 body	{
-	background-color: #00FFFF;
+	background-color: #B8860B;
 }
 
 #head
 {
 	font-family:"Veranda";
-	font-size:40px;
+	font-size:100px;
 	border-style: solid;
 	boder-width: 5px;
 	border-color: black;
@@ -13,4 +13,14 @@ body	{
 	padding-bottom: 20px;
 	padding-right: 5px;
 	text-align: right;
+}
+
+#image
+{
+	border-style: dotted;
+	bodrer-width: 2px;
+	border-color: white;
+	text-align: center;
+	
+	
 }
