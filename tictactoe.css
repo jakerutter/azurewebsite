@@ -1,0 +1,33 @@
+
+#header
+{
+	background-color: #484848;
+	color: #EFEFEF;
+	font-size: 45px;
+	font-family:"Veranda";
+	text-align: center;
+	border-style: none;
+	/* border-width: 5px; */
+	border-radius: .2em;
+}
+
+.container
+{
+	position: relative;
+	display: inline-block;
+	/* margin-top: .2em; */
+	color: #282828;
+	border-style: solid;
+	border-radius: .4em;
+	border-color: red;
+	border-width: 1px;
+	background-color: #FFFFFF;
+	width: 4em;
+	height: 4em;
+}
+.row
+{
+	position: relative
+	margin: .1em;
+	padding: .1em;
+}
