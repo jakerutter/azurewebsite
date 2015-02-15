@@ -12,11 +12,13 @@ for(var i = 0; i < tiles.length; i++)
 		{
 			event.currentTarget.innerHTML="X";
 			isX = false;
+			document.getElementById('turnCounter').innerHTML = 'Player Turn: 0';
 		}
 		else if(event.currentTarget.innerHTML != "X" && event.currentTarget.innerHTML != "O") 
 		{
 			event.currentTarget.innerHTML="O";
 			isX = true;
+			document.getElementById('turnCounter').innerHTML = 'Player Turn: X';
 		}
 		checkWinner();
 	};

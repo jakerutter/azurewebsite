@@ -1,5 +1,5 @@
 
-#header
+#mainContainer
 {
 	background-color: #484848;
 	color: #EFEFEF;
@@ -22,12 +22,12 @@
 	border-color: red;
 	border-width: 1px;
 	background-color: #FFFFFF;
-	width: 4em;
-	height: 4em;
+	width: 3em;
+	height: 3em;
 }
 .row
 {
-	position: relative
+	position: relative;
 	margin: .1em;
 	padding: .1em;
 }
